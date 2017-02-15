@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "CBC Playlog Extension",
+    "version": "1.0",
+    "content_scripts": [
+    {
+        "matches": ["http://www.cbcmusic.ca/radio2/playlogs"],
+        "js": ["jquery-3.1.1.js", "content.js"]
+    }
+    ]
+}
